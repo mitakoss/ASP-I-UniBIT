@@ -1,0 +1,414 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="course_project_46037zit.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .auto-style2 {
+            height: 1178px;
+            width: 1490px;
+            margin-left: 4px;
+            margin-top: 34px;
+        }
+        .auto-style3 {
+            width: 144px;
+        }
+        .auto-style4 {
+            width: 644px;
+        }
+        .auto-style12 {
+            width: 100%;
+        }
+        .auto-style8 {
+            width: 142px;
+        }
+        .auto-style7 {
+            width: 100px;
+            height: 86px;
+        }
+        .auto-style5 {
+            width: 357px;
+        }
+        .auto-style11 {
+            width: 49px;
+        }
+        .auto-style10 {
+            width: 45px;
+            height: 100px;
+        }
+        .auto-style13 {
+            width: 523px;
+        }
+        .auto-style14 {
+            height: 70px;
+        }
+        .auto-style29 {
+            width: 100%;
+            height: 328px;
+        }
+        .auto-style15 {
+            height: 296px;
+        }
+        .auto-style95 {
+            width: 250px;
+        }
+        .auto-style105 {
+            height: 151px;
+            width: 4036px;
+        }
+        .auto-style106 {
+            width: 284px;
+            height: 50px;
+        }
+        .auto-style103 {
+            height: 151px;
+            width: 708px;
+        }
+        .auto-style94 {
+            width: 250px;
+            height: 151px;
+        }
+        .auto-style101 {
+            width: 172px;
+            height: 151px;
+        }
+        .auto-style93 {
+            width: 111px;
+            height: 151px;
+        }
+        .auto-style98 {
+            height: 151px;
+        }
+        .auto-style99 {
+            width: 249px;
+            height: 270px;
+        }
+        .auto-style124 {
+            width: 126px;
+        }
+        .auto-style123 {
+            width: 107px;
+        }
+        .auto-style114 {
+            width: 215px;
+        }
+        .auto-style115 {
+            width: 212px;
+        }
+        .auto-style110 {
+            width: 312px;
+        }
+        .auto-style121 {
+            height: 169px;
+            width: 126px;
+        }
+        .auto-style116 {
+            width: 123px;
+            height: 164px;
+        }
+        .auto-style107 {
+            height: 169px;
+            width: 107px;
+        }
+        .auto-style119 {
+            width: 96px;
+            height: 180px;
+        }
+        .auto-style113 {
+            height: 169px;
+            width: 215px;
+        }
+        .auto-style109 {
+            height: 169px;
+            width: 212px;
+        }
+        .auto-style111 {
+            height: 169px;
+            width: 312px;
+        }
+        .auto-style128 {
+            width: 788px;
+        }
+        .auto-style125 {
+            width: 188px;
+        }
+        .auto-style126 {
+            width: 292px;
+        }
+        .auto-style127 {
+            width: 323px;
+        }
+        .auto-style134 {
+            width: 159px;
+        }
+        .auto-style136 {
+            width: 114px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+        <div class="auto-style2">
+            
+                <table border="0" style="width:100%;">
+                    <tr>
+                        <td class="auto-style3" style="background-color: #1C3050">
+                            <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="#FFA036">Портал на МВР</asp:HyperLink>
+                        </td>
+                        <td class="auto-style4" style="border-color: #003366; background-color: #1C3050">
+                            <asp:Menu ID="Menu1" runat="server" ForeColor="White" Orientation="Horizontal">
+                                <Items>
+                                    <asp:MenuItem Text="goverment.bg" Value="goverment.bg"></asp:MenuItem>
+                                    <asp:MenuItem Text="| Сектори" Value="Сектори"></asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                        </td>
+                        <td style="background-color: #1C3050">
+                            <asp:Menu ID="Menu2" runat="server" ForeColor="White" Orientation="Horizontal">
+                                <Items>
+                                    <asp:MenuItem Text="Начална страница" Value="Начална страница"></asp:MenuItem>
+                                    <asp:MenuItem Text="| Карта на сайта" Value="| Карта на сайта"></asp:MenuItem>
+                                    <asp:MenuItem Text="| Контакти" Value="| Контакти"></asp:MenuItem>
+                                    <asp:MenuItem Text="   RSS" Value="RSS"></asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                        </td>
+                    </tr>
+                </table>
+                <table class="auto-style12">
+                    <tr>
+                        <td class="auto-style8">
+                            <center>
+                                <img alt="" class="auto-style7" src="Pictures/bulgarian-gerb.png" /></td>
+                            </center>
+                        <td class="auto-style5">
+                            <table style="width:100%;">
+                                <tr>
+                                    <td>Република България</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Министерство на вътрешните работи</strong></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="auto-style11">
+                            <img alt="" class="auto-style10" src="Pictures/mvr-gerb.png" /></td>
+                        <td class="auto-style13"></td>
+                        <td>
+                            <table class="auto-style12">
+                                <tr>
+                                    <td style="font-size: small; text-align: right;">Смени езика</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: right">
+                                        <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True">English</asp:HyperLink>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table style="width:100%;">
+                    <tr>
+                        <td class="auto-style14" style="background-color: #C6D9F0">
+                            <asp:Menu ID="Menu3" runat="server" Font-Bold="True" ForeColor="#1C3050" Orientation="Horizontal" OnMenuItemClick="Menu3_MenuItemClick">
+                                <Items>
+                                    <asp:MenuItem Text="МИНИСТЕРСТВОТО" Value="МИНИСТЕРСТВОТО">
+                                        <asp:MenuItem Text="ЗА МИНИСТЕРСТВОТО НА ВЪТРЕШНИТЕ РАБОТИ" Value="ЗА МИНИСТЕРСТВОТО НА ВЪТРЕШНИТЕ РАБОТИ">
+                                            <asp:MenuItem Text="Ръководство" Value="Ръководство"></asp:MenuItem>
+                                            <asp:MenuItem Text="Министър на вътрешните работи" Value="Министър на вътрешните работи"></asp:MenuItem>
+                                            <asp:MenuItem Text="Политически кабинет" Value="Политически кабинет"></asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="ОСНОВНИ СТРУКТУРИ" Value="ОСНОВНИ СТРУКТУРИ">
+                                            <asp:MenuItem Text="Главна дирекция &quot;Национална полиция&quot;" Value="Главна дирекция &quot;Национална полиция&quot;"></asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="ПРОГРАМНИ ДОКУМЕНТИ, ОТЧЕТИ И АНАЛИЗИ" Value="ПРОГРАМНИ ДОКУМЕНТИ, ОТЧЕТИ И АНАЛИЗИ"></asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="ОБЩЕСТВЕН РЕД И СИГУРНОСТ" Value="ОБЩЕСТВЕН РЕД И СИГУРНОСТ"></asp:MenuItem>
+                                    <asp:MenuItem Text="АДМИНИСТРАТИВНИ УСЛУГИ" Value="АДМИНИСТРАТИВНИ УСЛУГИ"></asp:MenuItem>
+                                    <asp:MenuItem Text="ГАЛЕРИЯ" Value="ГАЛЕРИЯ"></asp:MenuItem>
+                                    <asp:MenuItem Text="ВХОД" Value="ВХОД"></asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                        </td>
+                    </tr>
+                </table>
+                <table class="auto-style29">
+                    <tr>
+                        <td class="auto-style15">
+                            &nbsp;</td>
+                    </tr>
+                </table>
+                <table style="width:100%;">
+                    <tr>
+                        <td class="auto-style105" style="font-size: small; font-weight: bold">ОБЛАСТНИ ДИРЕКЦИИ НА<br />
+                            МИНИСТЕРСТВОТО НА ВЪТРЕШНИТЕ<br />
+                            РАБОТИ<br />
+                            <br />
+                            <img alt="" class="auto-style106" src="Pictures/btn_view_map.png" /><br />
+                            <br />
+                            <asp:LinkButton ID="LinkButton1" runat="server">ДРУГИ СТРАНИЦИ НА МВР</asp:LinkButton>
+                        </td>
+                        <td class="auto-style103">
+                            <asp:Menu ID="Menu13" runat="server">
+                                <Items>
+                                    <asp:MenuItem Text="Столична дирекция на вътрешните работи" Value="Столична дирекция на вътрешните работи"></asp:MenuItem>
+                                    <asp:MenuItem Text="Пътна полиция" Value="Пътна полиция"></asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                        </td>
+                        <td class="auto-style94">
+                            <asp:Menu ID="Menu12" runat="server">
+                                <Items>
+                                    <asp:MenuItem Text="Благоевград" Value="Благоевград"></asp:MenuItem>
+                                    <asp:MenuItem Text="Бургас" Value="Бургас"></asp:MenuItem>
+                                    <asp:MenuItem Text="Варна" Value="Варна"></asp:MenuItem>
+                                    <asp:MenuItem Text="Велико Търново" Value="Велико Търново"></asp:MenuItem>
+                                    <asp:MenuItem Text="Видин" Value="Видин"></asp:MenuItem>
+                                    <asp:MenuItem Text="Враца" Value="Враца"></asp:MenuItem>
+                                    <asp:MenuItem Text="Габрово" Value="Габрово"></asp:MenuItem>
+                                    <asp:MenuItem Text="Добрич" Value="Добрич"></asp:MenuItem>
+                                    <asp:MenuItem Text="Кърджали" Value="Кърджали"></asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                        </td>
+                        <td class="auto-style101">
+                            <asp:Menu ID="Menu11" runat="server">
+                                <Items>
+                                    <asp:MenuItem Text="Кюстендил" Value="Кюстендил"></asp:MenuItem>
+                                    <asp:MenuItem Text="Ловеч" Value="Ловеч"></asp:MenuItem>
+                                    <asp:MenuItem Text="Монтана" Value="Монтана"></asp:MenuItem>
+                                    <asp:MenuItem Text="Пазарджик" Value="Пазарджик"></asp:MenuItem>
+                                    <asp:MenuItem Text="Перник" Value="Перник"></asp:MenuItem>
+                                    <asp:MenuItem Text="Плевен" Value="Плевен"></asp:MenuItem>
+                                    <asp:MenuItem Text="Пловдив" Value="Пловдив"></asp:MenuItem>
+                                    <asp:MenuItem Text="Разград" Value="Разград"></asp:MenuItem>
+                                    <asp:MenuItem Text="Русе" Value="Русе"></asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                        </td>
+                        <td class="auto-style93">
+                            <asp:Menu ID="Menu10" runat="server">
+                                <Items>
+                                    <asp:MenuItem Text="Силистра" Value="Силистра"></asp:MenuItem>
+                                    <asp:MenuItem Text="Сливен" Value="Сливен"></asp:MenuItem>
+                                    <asp:MenuItem Text="Смолян" Value="Смолян"></asp:MenuItem>
+                                    <asp:MenuItem Text="София" Value="София"></asp:MenuItem>
+                                    <asp:MenuItem Text="Стара Загора" Value="Стара Загора"></asp:MenuItem>
+                                    <asp:MenuItem Text="Търговище" Value="Търговище"></asp:MenuItem>
+                                    <asp:MenuItem Text="Хасково" Value="Хасково"></asp:MenuItem>
+                                    <asp:MenuItem Text="Шумен" Value="Шумен"></asp:MenuItem>
+                                    <asp:MenuItem Text="Ямбол" Value="Ямбол"></asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                        </td>
+                        <td class="auto-style98">
+                            <img alt="" class="auto-style99" src="Pictures/portal.map.png" /></td>
+                    </tr>
+                </table>
+                <table style="width:100%;">
+                    <tr>
+                        <td class="auto-style124">&nbsp;</td>
+                        <td class="auto-style123">&nbsp;</td>
+                        <td class="auto-style114">&nbsp;</td>
+                        <td class="auto-style115">&nbsp;</td>
+                        <td class="auto-style110">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style121" style="background-color: #C6D9F0; vertical-align: middle; text-align: center;">
+                            <img alt="" class="auto-style116" src="Pictures/lion-black-white.png"/></td>
+                        <td class="auto-style107" style="background-color: #C6D9F0">
+                            <img alt="" class="auto-style119" src="Pictures/mvr-gerb.png" /></td>
+                        <td class="auto-style113" style="background-color: #C6D9F0">
+                            <p class="title">
+                                Министерство на вътрешните работи</p>
+                            <p class="texts">
+                                ул. „6-и септември“ 29, София 1000</p>
+                            <p class="texts">
+                                тел. 02 9825 000 -тел.централа</p>
+                        </td>
+                        <td class="auto-style109" style="background-color: #C6D9F0">
+                            <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-6">
+                                <p class="title">
+                                    Пресцентър</p>
+                                <p class="texts">
+                                    ул. „Ген. Йосиф В. Гурко“ 23, София 1000</p>
+                                <p class="texts">
+                                    Дежурна част</p>
+                                <p class="texts">
+                                    тел. 02 9823 754, факс: 02 9877 967</p>
+                                <p class="texts">
+                                    <a class="link" href="mailto:pk_spvo@mvr.bg">pk_spvo@mvr.bg</a>,&nbsp;<a class="link" href="mailto:press@mvr.bg">press@mvr.bg</a></p>
+                            </div>
+                        </td>
+                        <td class="auto-style111" style="background-color: #C6D9F0">
+                            <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-6">
+                                <p class="title">
+                                    Приемна за граждани</p>
+                                <p class="texts">
+                                    ул. „6-и септември“ 29, София 1000</p>
+                                <p class="texts">
+                                    Приемно време</p>
+                                <p class="texts">
+                                    10:00 - 12:00 ч. и 14:00 - 16:00 ч.</p>
+                                <p class="texts">
+                                    За жалби, предложения и сигнали:</p>
+                                <p class="texts">
+                                    тел. 02 9822 574, <a href="mailto:priemna@mvr.bg">priemna@mvr.bg</a></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table style="width:100%;">
+                    <tr>
+                        <td class="auto-style128" style="background-color: #1C3050; color: #FFFFFF;">Министерство на вътрешните работи © 2019<br />
+                            <br />
+                            <table>
+                                <tr>
+                                    <td class="auto-style125">
+                                        <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="White">Условия за ползване</asp:LinkButton>
+                                    </td>
+                                    <td class="auto-style126">
+                                        <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="White">Политика за конфиденциалност</asp:LinkButton>
+                                    </td>
+                                    <td class="auto-style127">
+                                        <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="White">Политика за ползване на бисквитки</asp:LinkButton>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="background-color: #1C3050; color: #FFFFFF;">
+                            <table style="width:100%;">
+                                <tr>
+                                    <td class="auto-style134">
+                                        <asp:LinkButton ID="LinkButton5" runat="server" Font-Size="Small" ForeColor="White">МИНИСТЕРСТВОТО</asp:LinkButton>
+                                    </td>
+                                    <td class="auto-style95">
+                                        <asp:LinkButton ID="LinkButton6" runat="server" Font-Size="Small" ForeColor="White">АДМИНИСТРАТИВНИ УСЛУГИ</asp:LinkButton>
+                                    </td>
+                                    <td class="auto-style136">
+                                        <asp:LinkButton ID="LinkButton7" runat="server" Font-Size="Small" ForeColor="White">ПРЕСЦЕНТЪР</asp:LinkButton>
+                                    </td>
+                                    <td>
+                                        <asp:LinkButton ID="LinkButton8" runat="server" Font-Size="Small" ForeColor="White">СИГНАЛ ЗА КОРУПЦИЯ</asp:LinkButton>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+        </div>
+    </form>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

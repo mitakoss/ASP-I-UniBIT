@@ -1,16 +1,19 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="course_project_46037zit.Site2" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="course_project_46037zit.Site1" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="ajaxToolkit" %>
 
 <!DOCTYPE html>
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>
+        
+    </title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
-
         .auto-style2 {
-            height: 1178px;
+            height: 2785px;
             width: 1490px;
             margin-left: 4px;
             margin-top: 34px;
@@ -21,25 +24,25 @@
         .auto-style4 {
             width: 644px;
         }
-        .auto-style12 {
-            width: 100%;
-        }
-        .auto-style8 {
-            width: 142px;
+        .auto-style5 {
+            width: 357px;
         }
         .auto-style7 {
             width: 100px;
             height: 86px;
         }
-        .auto-style5 {
-            width: 357px;
-        }
-        .auto-style11 {
-            width: 49px;
+        .auto-style8 {
+            width: 142px;
         }
         .auto-style10 {
             width: 45px;
             height: 100px;
+        }
+        .auto-style11 {
+            width: 49px;
+        }
+        .auto-style12 {
+            width: 100%;
         }
         .auto-style13 {
             width: 523px;
@@ -47,52 +50,65 @@
         .auto-style14 {
             height: 70px;
         }
+        .auto-style15 {
+            height: 296px;
+        }
         .auto-style29 {
             width: 100%;
             height: 328px;
         }
-        .auto-style15 {
-            height: 296px;
+        .auto-style93 {
+            width: 220px;
+            height: 151px;
+        }
+        .auto-style94 {
+            width: 199px;
+            height: 151px;
         }
         .auto-style95 {
             width: 250px;
-        }
-        .auto-style105 {
-            height: 151px;
-            width: 4036px;
-        }
-        .auto-style106 {
-            width: 284px;
-            height: 50px;
-        }
-        .auto-style103 {
-            height: 151px;
-            width: 708px;
-        }
-        .auto-style94 {
-            width: 250px;
-            height: 151px;
-        }
-        .auto-style101 {
-            width: 172px;
-            height: 151px;
-        }
-        .auto-style93 {
-            width: 111px;
-            height: 151px;
         }
         .auto-style98 {
             height: 151px;
         }
         .auto-style99 {
-            width: 249px;
+            width: 285px;
             height: 270px;
         }
-        .auto-style124 {
-            width: 126px;
+        .auto-style101 {
+            width: 239px;
+            height: 151px;
         }
-        .auto-style123 {
+        .auto-style103 {
+            height: 151px;
+            width: 389px;
+        }
+        .auto-style105 {
+            height: 151px;
+            width: 323px;
+        }
+        .auto-style106 {
+            width: 284px;
+            height: 50px;
+        }
+        .auto-style107 {
+            height: 169px;
             width: 107px;
+        }
+        .auto-style109 {
+            height: 169px;
+            width: 212px;
+        }
+        .auto-style110 {
+            width: 312px;
+        }
+        .auto-style111 {
+            height: 169px;
+            width: 312px;
+        }
+        .auto-style113 {
+            height: 169px;
+            width: 215px;
         }
         .auto-style114 {
             width: 215px;
@@ -100,39 +116,23 @@
         .auto-style115 {
             width: 212px;
         }
-        .auto-style110 {
-            width: 312px;
-        }
-        .auto-style121 {
-            height: 169px;
-            width: 126px;
-        }
         .auto-style116 {
             width: 123px;
             height: 164px;
-        }
-        .auto-style107 {
-            height: 169px;
-            width: 107px;
         }
         .auto-style119 {
             width: 96px;
             height: 180px;
         }
-        .auto-style113 {
+        .auto-style121 {
             height: 169px;
-            width: 215px;
+            width: 126px;
         }
-        .auto-style109 {
-            height: 169px;
-            width: 212px;
+        .auto-style123 {
+            width: 107px;
         }
-        .auto-style111 {
-            height: 169px;
-            width: 312px;
-        }
-        .auto-style128 {
-            width: 788px;
+        .auto-style124 {
+            width: 126px;
         }
         .auto-style125 {
             width: 188px;
@@ -143,17 +143,34 @@
         .auto-style127 {
             width: 323px;
         }
+        .auto-style128 {
+            width: 788px;
+        }
         .auto-style134 {
             width: 159px;
         }
         .auto-style136 {
             width: 114px;
         }
+        .auto-style142 {
+            width: 220px;
+        }
+        .auto-style143 {
+            width: 239px;
+        }
+        .auto-style144 {
+            width: 199px;
+        }
+        .auto-style145 {
+            width: 389px;
+        }
         </style>
 </head>
-<body>
-    <form id="form2" runat="server">
+<body style="height: 3005px">
+    <form id="form1" runat="server">
         <div class="auto-style2">
+            
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
                 <table border="0" style="width:100%;">
                     <tr>
@@ -241,10 +258,31 @@
                 <table class="auto-style29">
                     <tr>
                         <td class="auto-style15">
-                            &nbsp;</td>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                <table style="width: 100%;">
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </asp:ContentPlaceHolder>
+                        </td>
                     </tr>
                 </table>
                 <table style="width:100%;">
+                    <tr>
+                        <td class="auto-style127"></td>
+                        <td class="auto-style145"></td>
+                        <td class="auto-style144"></td>
+                        <td class="auto-style143"></td>
+                        <td class="auto-style142"></td>
+                        <td></td>
+                    </tr>
                     <tr>
                         <td class="auto-style105" style="font-size: small; font-weight: bold">ОБЛАСТНИ ДИРЕКЦИИ НА<br />
                             МИНИСТЕРСТВОТО НА ВЪТРЕШНИТЕ<br />
@@ -325,6 +363,7 @@
                         <td class="auto-style107" style="background-color: #C6D9F0">
                             <img alt="" class="auto-style119" src="Pictures/mvr-gerb.png" /></td>
                         <td class="auto-style113" style="background-color: #C6D9F0">
+                            
                             <p class="title">
                                 Министерство на вътрешните работи</p>
                             <p class="texts">
@@ -402,12 +441,6 @@
                         </td>
                     </tr>
                 </table>
-        </div>
-    </form>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
         </div>
     </form>
 </body>

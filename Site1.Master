@@ -463,7 +463,7 @@
                                     <asp:MenuItem Text="ОБЩЕСТВЕН РЕД И СИГУРНОСТ" Value="ОБЩЕСТВЕН РЕД И СИГУРНОСТ"></asp:MenuItem>
                                     <asp:MenuItem Text="АДМИНИСТРАТИВНИ УСЛУГИ" Value="АДМИНИСТРАТИВНИ УСЛУГИ"></asp:MenuItem>
                                     <asp:MenuItem Text="ГАЛЕРИЯ" Value="ГАЛЕРИЯ"></asp:MenuItem>
-                                    <asp:MenuItem Text="ВХОД" Value="ВХОД"></asp:MenuItem>
+                                    <asp:MenuItem Text="ВХОД" Value="ВХОД" NavigateUrl="~/login_form.aspx"></asp:MenuItem>
                                 </Items>
                             </asp:Menu>
                         </td>
@@ -494,7 +494,7 @@
                                         <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
                                             <p>
                                             <center>
-                                                <b><a href="#">Полицията предприема мерки за опазване на обществения ред във връзка спубличи събития в столицата </a></b>
+                                                <b><a href="police_predpriema_merki.aspx">Полицията предприема мерки за опазване на обществения ред във връзка спубличи събития в столицата </a></b>
                                             </center>
                                             <br />Днес според християнския календар е Голяма Задушница. Осигурено е засилено полицейско присъствие около траурните паркове в София. Екипи на „Пътна полиция“ ще регулират и подпомагат движението.
                                             </p>
@@ -506,7 +506,7 @@
                                             <p>
                                                 <center>
                                                     <b>
-                                                        <a href="#">
+                                                        <a href="gdgp_traffic.aspx">
                                                             Информация от ГДГП за трафика на българските гранични контролно-пропускателни пунктове
                                                         </a>
                                                     </b>
@@ -523,7 +523,7 @@
                                         <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
                                             <p>
                                             <center>
-                                                <b><a href="#">38-годишен е задържан при операция на ОДМВР - Бургас </a></b>
+                                                <b><a href="operation_burgas.aspx">38-годишен е задържан при операция на ОДМВР - Бургас </a></b>
                                             </center>
                                                 <br />
                                             Досъдебно производство е образувано след акцията в нощно заведение в областния град.

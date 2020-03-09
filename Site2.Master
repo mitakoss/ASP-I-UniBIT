@@ -9,6 +9,8 @@
     <title>
         
     </title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
@@ -259,17 +261,6 @@
                     <tr>
                         <td class="auto-style15">
                             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                                <table style="width: 100%;">
-                                    <tr>
-                                        <td>&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>&nbsp;</td>
-                                    </tr>
-                                </table>
                             </asp:ContentPlaceHolder>
                         </td>
                     </tr>

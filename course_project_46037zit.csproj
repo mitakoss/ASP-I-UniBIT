@@ -71,7 +71,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CSS\main.min.css" />
+    <Content Include="CSS\StyleSheet.css" />
     <Content Include="Global.asax" />
     <Content Include="Pictures\112.jpg" />
     <Content Include="Pictures\banner-112-n-2.png" />
@@ -89,12 +89,16 @@
     <Content Include="Pictures\mvr-gerb.png" />
     <Content Include="Pictures\portal.map.png" />
     <Content Include="Pictures\untitled.tmb-thumb300.jpg" />
+    <Content Include="Pictures\user.png" />
     <Content Include="Pictures\w2.png" />
     <Content Include="Pictures\пп2.tmb-thumb300.jpg" />
     <Content Include="Pictures\пътна-полиция.png" />
     <Content Include="Web.config" />
     <Content Include="index.aspx" />
-    <Content Include="WebForm2.aspx" />
+    <Content Include="police_predpriema_merki.aspx" />
+    <Content Include="gdgp_traffic.aspx" />
+    <Content Include="operation_burgas.aspx" />
+    <Content Include="login_form.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -122,12 +126,33 @@
     <Compile Include="Site2.Master.designer.cs">
       <DependentUpon>Site2.Master</DependentUpon>
     </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="police_predpriema_merki.aspx.cs">
+      <DependentUpon>police_predpriema_merki.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="police_predpriema_merki.aspx.designer.cs">
+      <DependentUpon>police_predpriema_merki.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gdgp_traffic.aspx.cs">
+      <DependentUpon>gdgp_traffic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gdgp_traffic.aspx.designer.cs">
+      <DependentUpon>gdgp_traffic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="operation_burgas.aspx.cs">
+      <DependentUpon>operation_burgas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="operation_burgas.aspx.designer.cs">
+      <DependentUpon>operation_burgas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login_form.aspx.cs">
+      <DependentUpon>login_form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login_form.aspx.designer.cs">
+      <DependentUpon>login_form.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

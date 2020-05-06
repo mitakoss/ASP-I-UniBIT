@@ -1,9 +1,12 @@
 ﻿body {
-
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
 }
 .loginbox{
     position:absolute;
-    top:50%;
+    top:55%;
     left:50%;
     transform:translate(-50%, -50%);
     width:250px;
@@ -12,13 +15,13 @@
     box-sizing:border-box;
     background:rgba(0, 0, 0, 0.5);
 }
-.user{
-    width:80px;
-    height:80px;
-    overflow:hidden;
-    top: calc(-1px/2);
+.user {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    top: calc(-80px/2);
     left: calc(50% -50%);
-    position:absolute;
+    position: absolute;
 }
 .h2{
     padding:0;

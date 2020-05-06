@@ -15,7 +15,7 @@
     </asp:ContentPlaceHolder>
     <style type="text/css">
         .auto-style2 {
-            height: 2785px;
+            height: 1208px;
             width: 1490px;
             margin-left: 4px;
             margin-top: 34px;
@@ -168,7 +168,7 @@
         }
         </style>
 </head>
-<body style="height: 3005px">
+<body style="height: 1258px">
     <form id="form1" runat="server">
         <div class="auto-style2">
             

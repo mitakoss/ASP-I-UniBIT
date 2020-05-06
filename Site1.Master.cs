@@ -23,5 +23,10 @@ namespace course_project_46037zit
         {
 
         }
+
+        protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
+        {
+
+        }
     }
 }

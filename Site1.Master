@@ -463,7 +463,7 @@
                                     <asp:MenuItem Text="ОБЩЕСТВЕН РЕД И СИГУРНОСТ" Value="ОБЩЕСТВЕН РЕД И СИГУРНОСТ"></asp:MenuItem>
                                     <asp:MenuItem Text="АДМИНИСТРАТИВНИ УСЛУГИ" Value="АДМИНИСТРАТИВНИ УСЛУГИ"></asp:MenuItem>
                                     <asp:MenuItem Text="ГАЛЕРИЯ" Value="ГАЛЕРИЯ"></asp:MenuItem>
-                                    <asp:MenuItem Text="ВХОД" Value="ВХОД" NavigateUrl="~/login_form.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="ВХОД" Value="ВХОД" NavigateUrl="~/login_page.aspx"></asp:MenuItem>
                                 </Items>
                             </asp:Menu>
                         </td>

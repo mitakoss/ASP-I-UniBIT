@@ -73,6 +73,8 @@
   <ItemGroup>
     <Content Include="CSS\StyleSheet.css" />
     <Content Include="Global.asax" />
+    <Content Include="logged_in_page.aspx" />
+    <Content Include="login_page.aspx" />
     <Content Include="Pictures\112.jpg" />
     <Content Include="Pictures\banner-112-n-2.png" />
     <Content Include="Pictures\btn_view_map.png" />
@@ -93,18 +95,39 @@
     <Content Include="Pictures\w2.png" />
     <Content Include="Pictures\пп2.tmb-thumb300.jpg" />
     <Content Include="Pictures\пътна-полиция.png" />
+    <Content Include="register_page.aspx" />
     <Content Include="Web.config" />
     <Content Include="index.aspx" />
     <Content Include="police_predpriema_merki.aspx" />
     <Content Include="gdgp_traffic.aspx" />
     <Content Include="operation_burgas.aspx" />
-    <Content Include="login_form.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="logged_in_page.aspx.cs">
+      <DependentUpon>logged_in_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logged_in_page.aspx.designer.cs">
+      <DependentUpon>logged_in_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login_page.aspx.cs">
+      <DependentUpon>login_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login_page.aspx.designer.cs">
+      <DependentUpon>login_page.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register_page.aspx.cs">
+      <DependentUpon>register_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register_page.aspx.designer.cs">
+      <DependentUpon>register_page.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -146,13 +169,6 @@
     </Compile>
     <Compile Include="operation_burgas.aspx.designer.cs">
       <DependentUpon>operation_burgas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="login_form.aspx.cs">
-      <DependentUpon>login_form.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="login_form.aspx.designer.cs">
-      <DependentUpon>login_form.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
